@@ -1,14 +1,5 @@
+package main;
 
-
-func main() {
-	
-	fmt.Println("hi")
-
-}
-package main // Java에서 package와 같은 느낌, Python에서 폴더 이름과 같은 느낌
-
-// 사용되지 않은 module은 에러를 내뿜는다 Go언어는 사용하지 않는 모듈이 있으면 오류가 나온다.
-// fmt(Formatting의 약자) -> #include <stdio.h>
 import (
     "encoding/json"
     "fmt"
@@ -26,7 +17,7 @@ func main() { // 어떤 파일에서 main 함수를 먼저 무조건 실행한�
 
     // 모든 error를 프로그래머가 직접 제어해줘야 한다
     // error에 취약하지만 error를 잘 관리만 해주면 자유자재로 컨트롤 가능!
-    if err != nil { // () 묶지 않는다. 
+    if err != nil { // 괄호로 묶지 않는다. 
         // 오류가 나면 어찌저찌 한다
     }
 
